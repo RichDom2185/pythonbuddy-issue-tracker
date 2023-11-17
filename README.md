@@ -66,3 +66,23 @@ I'm actively working on supporting more and more features of the language, with 
 
 - [List comprehensions vs. For loops](https://share.richarddominick.me/listcomp_vs_for)
 - [Zoo ticket pricing function](https://share.richarddominick.me/zoo_ticket)
+
+## Caveats
+
+Caveats describe how Python Buddy's implementation intentionally differs from the official Python language specification.
+
+Any differences not described here should be considered bugs. Please [open an issue](https://github.com/RichDom2185/pythonbuddy-issue-tracker/issues/new) if you find one!
+
+### Assignments
+
+Python Buddy does not support assignment expressions (also known as the "walrus operator") yet.
+
+Until it does so, normal assignments are value-producing (unlike standard Python).
+
+This does not mean they can be used as expressions, though, as that would violate python syntax.
+
+### For loops
+
+The iterator of the for loop is evaluated all at once. This is **not meant to be permanent**, and simply a workaround due to time constraints. Until this is fixed, Python Buddy will not be able to support early return, break, or continue statements.
+
+Implication: If your iterator has side effects, they will be evaluated first before the body of the for loop is even executed once.
