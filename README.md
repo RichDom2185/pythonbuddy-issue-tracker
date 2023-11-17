@@ -16,25 +16,50 @@ This repository is for tracking issues and feature requests for Python Buddy.
 
 I'm actively working on supporting more and more features of the language, with the goal of covering the necessary features for basic Python learning first. Here's what's currently supported, as well as the features I'm working on next:
 
+### Basic Features
+
 - [x] Variable assignment: `a = 1`
-- [x] Lists, tuples, and dictionaries: `my_list = [1, 2, 3]`
+- [ ] Multiple assignment: `a, b = 1, 2`
+- [ ] Starred assignment: `a, *b, c = 1, 2, 3, 4`
+- [ ] Assignment expressions: `a := 1`
 - [x] Operators: `+`, `-`, `*`, `/`, `//`, `%`, `**`
 - [x] Comparisons: `==`, `!=`, `>`, `<`, `>=`, `<=`, `in`, `not in`, `is`, `is not`
 - [x] Operator assignment: `+=`, `-=`, `*=`, `/=`, `//=`, `%=`, `**=`
 - [ ] Boolean operators: `and`, `or`, `not`
+
+### Collections of Data 1
+
+- [x] Lists, tuples, and dictionaries: `my_list = [1, 2, 3]`
+- [ ] Indexing: `my_list[0]`
+- [ ] Slicing: `my_list[0:2]`
+- [ ] Extended slicing: `my_list[0:2:2]`
+
+### Control Flow
+
 - [x] Ternary operator: `a if b else c`
 - [x] If statements: `if`, `elif`, `else`
 - [x] While loops: `while True`
 - [x] For loops: `for x in my_list:`
 - [ ] Non-standard control flow: `break` and `continue` statements
+
+### Collections of Data 2
+
 - [x] List comprehensions: `[x for x in my_list]`
 - [ ] Dictionary comprehensions: `{x: x for x in my_list}`
 - [ ] Set comprehensions: `{x for x in my_list}`
 - [ ] Generator expressions: `(x for x in my_list)`
+- [ ] Nested comprehensions: `[x, y for x in my_list for y in my_list]`
+
+### Functions
+
 - [x] Function definitions: `def my_func(a, b, c):`
 - [x] Function calls: `my_func(a, b, c)`
 - [ ] Early `return` statements
 - [x] Attribute/method access: `my_list.append(1)`
+- [ ] Lambda expressions: `lambda x: x + 1`
+
+### Others
+
 - [ ] Import statements: `import numpy as np`
 
 ## Sample Programs
