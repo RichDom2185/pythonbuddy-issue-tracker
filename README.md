@@ -19,7 +19,7 @@ I'm actively working on supporting more and more features of the language, with 
 ### Basic Features
 
 - [x] Variable assignment: `a = 1`
-- [ ] Multiple assignment: `a, b = 1, 2`
+- [x] Multiple assignment: `a, b = 1, 2`
 - [ ] Starred assignment: `a, *b, c = 1, 2, 3, 4`
 - [ ] Assignment expressions: `a := 1`
 - [x] Operators: `+`, `-`, `*`, `/`, `//`, `%`, `**`
@@ -77,7 +77,7 @@ Any differences not described here should be considered bugs. Please [open an is
 
 Python Buddy does not support assignment expressions (also known as the "walrus operator") yet.
 
-Until it does so, normal assignments are value-producing (unlike standard Python).
+Until it does so, normal assignments and multiple assignments are value-producing (unlike standard Python). In the case of the latter, a tuple is produced.
 
 This does not mean they can be used as expressions, though, as that would violate python syntax.
 
