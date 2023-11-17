@@ -54,6 +54,7 @@ I'm actively working on supporting more and more features of the language, with 
 
 - [x] Function definitions: `def my_func(a, b, c):`
 - [x] Function calls: `my_func(a, b, c)`
+- [ ] Keyword arguments: `my_func(a=1, b=2, c=3)`
 - [ ] Early `return` statements
 - [x] Attribute/method access: `my_list.append(1)`
 - [ ] Lambda expressions: `lambda x: x + 1`
