@@ -9,7 +9,7 @@ This repository is for tracking issues and feature requests for Python Buddy.
 - [x] Step-by-step explanations of Python code
 - [x] Code highlighting
 - [x] Code editing
-- [ ] (WIP) Sharable links
+- [x] Sharable links
 - [ ] Code execution visualization
 
 ## Supported Python Features
@@ -25,14 +25,15 @@ I'm actively working on supporting more and more features of the language, with 
 - [x] Operators: `+`, `-`, `*`, `/`, `//`, `%`, `**`
 - [x] Comparisons: `==`, `!=`, `>`, `<`, `>=`, `<=`, `in`, `not in`, `is`, `is not`
 - [x] Operator assignment: `+=`, `-=`, `*=`, `/=`, `//=`, `%=`, `**=`
-- [ ] Boolean operators: `and`, `or`, `not`
+- [x] Boolean operators, with short-circuiting: `and`, `or`
+- [x] Unary operators: `+3`, `-3`, `not 3`
 
 ### Collections of Data 1
 
 - [x] Lists, tuples, and dictionaries: `my_list = [1, 2, 3]`
-- [ ] Indexing: `my_list[0]`
-- [ ] Slicing: `my_list[0:2]`
-- [ ] Extended slicing: `my_list[0:2:2]`
+- [x] Indexing: `my_list[0]`
+- [x] Slicing: `my_list[0:2]`
+- [x] Extended slicing: `my_list[0:2:2]`
 
 ### Control Flow
 
@@ -61,7 +62,7 @@ I'm actively working on supporting more and more features of the language, with 
 
 ### Others
 
-- [ ] Import statements: `import numpy as np`
+- [x] Import statements: `import numpy as np`
 
 ## Sample Programs
 
