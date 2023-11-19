@@ -67,7 +67,10 @@ I'm actively working on supporting more and more features of the language, with 
 ## Sample Programs
 
 - [List comprehensions vs. For loops](https://share.richarddominick.me/listcomp_vs_for)
+- [List indexing and slicing](https://share.richarddominick.me/list_demo)
 - [Zoo ticket pricing function](https://share.richarddominick.me/zoo_ticket)
+- [Short-circuiting boolean operators](https://share.richarddominick.me/short_circuit)
+- [Get all Fibonacci numbers up to a certain number](https://share.richarddominick.me/fib_n)
 
 ## Caveats
 
