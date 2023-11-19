@@ -71,6 +71,7 @@ I'm actively working on supporting more and more features of the language, with 
 - [Zoo ticket pricing function](https://share.richarddominick.me/zoo_ticket)
 - [Short-circuiting boolean operators](https://share.richarddominick.me/short_circuit)
 - [Get all Fibonacci numbers up to a certain number](https://share.richarddominick.me/fib_n)
+- [Rendering pandas DataFrames and intermediates](https://share.richarddominick.me/render_pandas)
 
 ## Caveats
 
