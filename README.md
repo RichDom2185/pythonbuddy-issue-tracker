@@ -6,10 +6,20 @@ This repository is for tracking issues and feature requests for Python Buddy.
 
 ## Features and Roadmap
 
-- [x] Step-by-step explanations of Python code
+- [x] Step-by-step, textual explanations of Python code
 - [x] Code highlighting
 - [x] Code editing
 - [x] Sharable links
+- [x] Import external modules
+
+  - Python built-in modules:
+    - Collections
+    - Functools
+  - Third-party modules:
+    - Numpy
+    - Pandas
+  - Want more modules? File a [feature request here.](/issues)
+
 - [ ] Code execution visualization
 
 ## Supported Python Features
@@ -63,6 +73,8 @@ I'm actively working on supporting more and more features of the language, with 
 ### Others
 
 - [x] Import statements: `import numpy as np`
+- [x] Import from statements: `from numpy import array`
+- [x] Wildcard import statements: `from numpy import *`
 
 ## Sample Programs
 
