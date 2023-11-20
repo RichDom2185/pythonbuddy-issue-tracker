@@ -18,7 +18,7 @@ This repository is for tracking issues and feature requests for Python Buddy.
   - Third-party modules:
     - Numpy
     - Pandas
-  - Want more modules? File a [feature request here.](/issues)
+  - Want more modules? File a [feature request here.](https://github.com/RichDom2185/pythonbuddy-issue-tracker/issues)
 
 - [ ] Code execution visualization
 
