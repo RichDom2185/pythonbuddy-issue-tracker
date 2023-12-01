@@ -51,24 +51,27 @@ I'm actively working on supporting more and more features of the language, with 
 - [x] If statements: `if`, `elif`, `else`
 - [x] While loops: `while True`
 - [x] For loops: `for x in my_list:`
-- [ ] Non-standard control flow: `break` and `continue` statements
+- [x] Non-standard control flow: `break` and `continue` statements
 
 ### Collections of Data 2
 
 - [x] List comprehensions: `[x for x in my_list]`
-- [ ] Dictionary comprehensions: `{x: x for x in my_list}`
-- [ ] Set comprehensions: `{x for x in my_list}`
+- [x] Nested list comprehensions: `[x, y for x in my_list for y in my_list]`
+- [x] Dictionary comprehensions: `{x: x for x in my_list}`
+- [x] Set comprehensions: `{x for x in my_list}`
 - [ ] Generator expressions: `(x for x in my_list)`
-- [ ] Nested comprehensions: `[x, y for x in my_list for y in my_list]`
 
 ### Functions
 
 - [x] Function definitions: `def my_func(a, b, c):`
 - [x] Function calls: `my_func(a, b, c)`
-- [ ] Keyword arguments: `my_func(a=1, b=2, c=3)`
-- [ ] Early `return` statements
+- [x] Keyword arguments: `my_func(a=1, b=2, c=3)`
+- [ ] Positional-only arguments: `def my_func(a, b, c, /)`
+- [ ] Keyword-only arguments: `def my_func(*, a, b, c)`
+- [x] Early `return` statements
+- [ ] Generator `yield` statements
 - [x] Attribute/method access: `my_list.append(1)`
-- [ ] Lambda expressions: `lambda x: x + 1`
+- [x] Lambda expressions: `lambda x: x + 1`
 
 ### Others
 
