@@ -73,6 +73,17 @@ I'm actively working on supporting more and more features of the language, with 
 - [x] Attribute/method access: `my_list.append(1)`
 - [x] Lambda expressions: `lambda x: x + 1`
 
+### Object-Oriented Programming
+
+- [ ] Class definitions: `class MyClass:`
+- [ ] Instance attributes: `self.my_attr = 1`
+- [ ] Class attributes: `class MyClass: my_attr = 1`
+- [ ] Instance methods: `class MyClass: def my_method(self):`
+- [ ] Class methods: `class MyClass: @classmethod def my_method(cls):`
+- [ ] Static methods: `class MyClass: @staticmethod def my_method():`
+- [ ] Inheritance: `class MyClass(MyParentClass):`
+- [ ] Multiple inheritance: `class MyClass(MyParentClass1, MyParentClass2):`
+
 ### Others
 
 - [x] Import statements: `import numpy as np`
