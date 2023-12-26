@@ -1,6 +1,6 @@
 # Python Buddy Issue Tracker
 
-[Python Buddy](https://learn.richarddominick.me/python/) is a tool to help you learn coding in Python. It explains how to read and better understand Python code in a step-by-step fashion.
+[Python Buddy](https:/pythonbuddy.dev/) is a tool to help you learn coding in Python. It explains how to read and better understand Python code in a step-by-step fashion.
 
 This repository is for tracking issues and feature requests for Python Buddy.
 
