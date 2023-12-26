@@ -10,17 +10,21 @@ This repository is for tracking issues and feature requests for Python Buddy.
 - [x] Code highlighting
 - [x] Code editing
 - [x] Sharable links
-- [x] Import external modules
-
-  - Python built-in modules:
-    - Collections
-    - Functools
-  - Third-party modules:
-    - Numpy
-    - Pandas
-  - Want more modules? File a [feature request here.](https://github.com/RichDom2185/pythonbuddy-issue-tracker/issues)
-
+- [x] Import external modules (see [below](#available-modules))
 - [ ] Code execution visualization
+
+## Available Modules
+
+| Type        | Name                                                                | Description                                                                       |
+|-------------|---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| Built-in    | [`collections`](https://docs.python.org/3/library/collections.html) | High-performance container datatypes                                              |
+| Built-in    | [`functools`](https://docs.python.org/3/library/functools.html)     | Higher-order functions and operations on callable objects                         |
+| Built-in    | [`math`](https://docs.python.org/3/library/math.html)               | Mathematical functions                                                            |
+| Third-party | [`numpy`](https://numpy.org/doc/stable/)                            | Scientific computing with Python                                                  |
+| Third-party | [`pandas`](https://pandas.pydata.org/docs/)                         | Data analysis and manipulation tool                                               |
+| Custom      | (WIP) `cs1010s_runes`                                               | CS1010S-specific functions for rendering runes – ported to work with Python Buddy |
+
+Want more modules? File a [feature request here.](https://github.com/RichDom2185/pythonbuddy-issue-tracker/issues)
 
 ## Supported Python Features
 
@@ -95,12 +99,12 @@ I'm actively working on supporting more and more features of the language, with 
 
 ## Sample Programs
 
-- [List comprehensions vs. For loops](https://share.richarddominick.me/listcomp_vs_for)
-- [List indexing and slicing](https://share.richarddominick.me/list_demo)
-- [Zoo ticket pricing function](https://share.richarddominick.me/zoo_ticket)
-- [Short-circuiting boolean operators](https://share.richarddominick.me/short_circuit)
-- [Get all Fibonacci numbers up to a certain number](https://share.richarddominick.me/fib_n)
-- [Rendering pandas DataFrames and intermediates](https://share.richarddominick.me/render_pandas)
+- [List comprehensions vs. For loops](https://pythonbuddy.dev/editor/?code=aSA9IDEwCmEgPSBbaSBmb3IgaSBpbiByYW5nZSg1KV0KaSAgIyAxMApwcmludChhLCBpKQoKaiA9IDEwCmIgPSBbXQpmb3IgaiBpbiByYW5nZSg1KToKICAgICBiLmFwcGVuZChqKQpqICAjIDQKcHJpbnQoYiwgaikKCmEgPT0gYiAgIyBUcnVlCg==&filename=listcomp_vs_for.py)
+- [List indexing and slicing](https://pythonbuddy.dev/editor/?code=YSA9IFsyLCAzLCA0XQppID0gMQoKcHJpbnQoYVswXSkgICAgICAjIDIKcHJpbnQoYVtpXSkgICAgICAjIDMKcHJpbnQoYVtpICsgMV0pICAjIDQKCnByaW50KGFbMDoyXSkgICAgIyBbMiwgM10KcHJpbnQoYVtpOl0pICAgICAjIFszLCA0XQpwcmludChhWzotMV0pICAgICMgWzIsIDNdCgpwcmludChhWzo6Ml0pICAgICMgWzIsIDRdCnByaW50KGFbOjotMV0pICAgIyBbNCwgMywgMl0=&filename=list_index_slice.py)
+- [Zoo ticket pricing function](https://pythonbuddy.dev/editor/?code=YWdlID0gWzExLCAzNiwgMzcsIDY3XSAgIyBsaXN0IG9mIGFnZXMgb2YgdmlzaXRvcnMgCgpkZWYgem9vX3RpY2tldChhZ2UpOgogICAgIiIiVGhlIGZ1bmN0aW9uIHpvb190aWNrZXQgY2FsY3VsYXRlcyB0aGUgCiAgICBTaW5nYXBvcmUgWm9vIHRpY2tldCBwcmljZXMgZm9yIHZpc2l0b3JzIiIiCgogICAgaWYgYWdlIDwgMzoKICAgICAgICB0aWNrZXQgPSAwCiAgICBlbGlmIGFnZSA8PSAxMjoKICAgICAgICB0aWNrZXQgPSAyOAogICAgZWxpZiBhZ2UgPCA2MDoKICAgICAgICB0aWNrZXQgPSA0MQogICAgZWxzZToKICAgICAgICB0aWNrZXQgPSAxOAoKICAgIHJldHVybiB0aWNrZXQKCiMgY3JlYXRlIGxpc3QgZm9yIHByaWNlcyBvZiB0aWNrZXRzCnRpY2tldCA9IFtdCmZvciBpdGVtIGluIGFnZToKICAgIHRpY2tldC5hcHBlbmQoem9vX3RpY2tldChpdGVtKSkKCnRpY2tldAo=&filename=zoo_ticket.py)
+- [Short-circuiting boolean operators](https://pythonbuddy.dev/editor/?code=ZGVmIGdldF90cnVlKCk6CiAgICBwcmludCgnVHJ1ZScpCiAgICByZXR1cm4gVHJ1ZQoKZGVmIGdldF9mYWxzZSgpOgogICAgcHJpbnQoJ0ZhbHNlJykKICAgIHJldHVybiBGYWxzZQoKIyBTaG9ydC1jaXJjdWl0aW5nIGZvciBgYW5kYAphID0gZ2V0X3RydWUoKSBhbmQgZ2V0X3RydWUoKSBhbmQgZ2V0X2ZhbHNlKCkgYW5kIGdldF90cnVlKCkgYW5kIGdldF90cnVlKCkKcHJpbnQoKQoKIyBTaG9ydC1jaXJjdWl0aW5nIGZvciBgb3JgCm8gPSBnZXRfZmFsc2UoKSBvciBnZXRfdHJ1ZSgpIG9yIGdldF90cnVlKCkgb3IgZ2V0X3RydWUoKSBvciBnZXRfZmFsc2UoKQpwcmludCgp&filename=short_circuit.py)
+- [Get all Fibonacci numbers up to a certain number](https://pythonbuddy.dev/editor/?code=IyBQcmludCBhbGwgRmlib25hY2NpIG51bWJlcnMgYmVsb3cgbgpkZWYgZmliKG4pOgogICAgYSwgYiA9IDAsIDEKICAgIHdoaWxlIGEgPCBuOgogICAgICAgIHByaW50KGEsIGVuZD0nICcpCiAgICAgICAgYSwgYiA9IGIsIGEgKyBiCiAgICBwcmludCgpCmZpYigyMDAwKQo=&filename=fib_n.py)
+- [Rendering pandas DataFrames and intermediates](https://pythonbuddy.dev/editor/?code=aW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCBwYW5kYXMgYXMgcGQKCmRmID0gcGQuRGF0YUZyYW1lKFsKICAgIHsnYSc6IDI1LCAnYic6IDQ5LCAnYyc6IDEwMH0sCiAgICB7J2EnOiBucC5uYW4sICdiJzogODEsICdjJzogMTIxfSwKXSkKCiMgSW50ZXJtZWRpYXRlIGRhdGFmcmFtZXMgYXJlIHNob3duIQpjb2xfbWFwID0gezI1OiAnaGknLCA0OTogJ2Zyb20nLCAxMDA6ICdQeXRob24gQnVkZHkhJ30KcHJpbnQoZGYuZHJvcG5hKCkudHJhbnNwb3NlKClbMF0ubWFwKGNvbF9tYXApKQ==&filename=pandas.py)
 
 ## Caveats
 
@@ -118,6 +122,6 @@ This does not mean they can be used as expressions, though, as that would violat
 
 ### For loops
 
-The iterator of the for loop is evaluated all at once. This is **not meant to be permanent**, and simply a workaround due to time constraints. Until this is fixed, Python Buddy will not be able to support early return, break, or continue statements.
+The iterator of the for loop is evaluated all at once and coerced to a list. This is **not meant to be permanent**, and simply a workaround due to lack of support for generator expressions for now. As a consequence, there may be some edge cases involving early return, break, or continue statements wher Python Buddy gives an incorrect result.
 
 Implication: If your iterator has side effects, they will be evaluated first before the body of the for loop is even executed once.
