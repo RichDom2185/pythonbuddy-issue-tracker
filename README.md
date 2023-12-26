@@ -37,6 +37,7 @@ I'm actively working on supporting more and more features of the language, with 
 - [x] Operator assignment: `+=`, `-=`, `*=`, `/=`, `//=`, `%=`, `**=`
 - [x] Boolean operators, with short-circuiting: `and`, `or`
 - [x] Unary operators: `+3`, `-3`, `not 3`
+- [ ] `del` keyword: `del a`
 
 ### Collections of Data 1
 
@@ -51,6 +52,8 @@ I'm actively working on supporting more and more features of the language, with 
 - [x] If statements: `if`, `elif`, `else`
 - [x] While loops: `while True`
 - [x] For loops: `for x in my_list:`
+- [x] For loops with multiple targets: `for x, y in zip(my_list, reversed(my_list)):`
+- [x] Else (normal exit) clauses: `for...else` and `while...else` loops
 - [x] Non-standard control flow: `break` and `continue` statements
 
 ### Collections of Data 2
@@ -75,10 +78,10 @@ I'm actively working on supporting more and more features of the language, with 
 
 ### Object-Oriented Programming
 
-- [ ] Class definitions: `class MyClass:`
-- [ ] Instance attributes: `self.my_attr = 1`
+- [x] _(BETA)_ Class definitions: `class MyClass:`
+- [x] _(BETA)_ Instance attributes: `self.my_attr = 1`
 - [ ] Class attributes: `class MyClass: my_attr = 1`
-- [ ] Instance methods: `class MyClass: def my_method(self):`
+- [x] _(BETA)_ Instance methods: `class MyClass: def my_method(self):`
 - [ ] Class methods: `class MyClass: @classmethod def my_method(cls):`
 - [ ] Static methods: `class MyClass: @staticmethod def my_method():`
 - [ ] Inheritance: `class MyClass(MyParentClass):`
