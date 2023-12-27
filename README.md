@@ -96,6 +96,7 @@ I'm actively working on supporting more and more features of the language, with 
 - [x] Import statements: `import numpy as np`
 - [x] Import from statements: `from numpy import array`
 - [x] Wildcard import statements: `from numpy import *`
+- [ ] f-strings: `f'Hello, {name}!'`
 
 ## Sample Programs
 
